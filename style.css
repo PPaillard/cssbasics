@@ -41,7 +41,7 @@ nav ul li a {
 header {
   min-height: 250px;
   text-align: center;
-  background-image: url("https://loremflickr.com/cache/resized/65535_52523702274_1a47aaaf25_k_1200_300_nofilter.jpg");
+  background-image: url("65535_52214085447_ec2bf04bd7_h_1200_300_nofilter.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -54,4 +54,16 @@ header h1 {
 section {
   margin: 0 auto;
   width: 65ch;
+}
+
+section article {
+  display: inline-block;
+  width: 40%;
+  margin: 1rem;
+  border-radius: 0.2rem;
+  box-shadow: 0 0 1rem grey;
+}
+
+footer {
+  background-color: #f76c6c;
 }
