@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  background-color: #f76c6c;
+  color: #ffffff;
+}
+
+nav > h2 {
+  margin: 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li:not(:first-of-type) {
+  padding-left: 2.5rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  color: #f76c6c;
+}
